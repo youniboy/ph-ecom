@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SlickCarouselComponent, SlickCarouselModule } from 'ngx-slick-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { EditAddressComponent } from './edit-address/edit-address.component';
     ForgotPasswordComponent,
     ProfileDetailsComponent,
     AddressComponent,
-    EditAddressComponent
+    EditAddressComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
