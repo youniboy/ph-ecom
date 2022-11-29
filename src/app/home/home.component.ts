@@ -1,4 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import productData from '../../assets/jsons/products.json';
+
+interface productList{
+  name: String,
+  img1: String,
+  img2: String,
+  price: String
+}
 
 @Component({
   selector: 'app-home',
@@ -13,4 +21,5 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  products: productList[] = productData;
 }
