@@ -19,6 +19,7 @@ import { ProfileDetailsComponent } from './profile-details/profile-details.compo
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 import { SignupComponent } from './signup/signup.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SignupComponent } from './signup/signup.component';
     ProfileDetailsComponent,
     AddressComponent,
     EditAddressComponent,
-    SignupComponent
+    SignupComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
