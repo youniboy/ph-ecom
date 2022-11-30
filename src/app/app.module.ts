@@ -20,6 +20,7 @@ import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 import { SignupComponent } from './signup/signup.component';
 import { BlogComponent } from './blog/blog.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { BlogComponent } from './blog/blog.component';
     AddressComponent,
     EditAddressComponent,
     SignupComponent,
-    BlogComponent
+    BlogComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
