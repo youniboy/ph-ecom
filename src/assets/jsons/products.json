@@ -1,26 +1,50 @@
 [
     {
-        "name":"Vibrator (Multicolor) - 1pc",
-        "img1":"assets/images/vibes.jpg",
-        "img2":"assets/images/vibes-1.jpg",
+        "name":"Wand Vibrator",
+        "img1":"assets/images/vibrator.jpg",
+        "img2":"",
         "price":"₹999.00"
     },
     {
         "name":"Buttplug",
-        "img1":"assets/images/bp.jpg",
-        "img2":"assets/images/bp-1.jpg",
+        "img1":"assets/images/buttplug.jpg",
+        "img2":"",
         "price":"₹999.00"
     },
     {
         "name":"Dildo",
-        "img1":"assets/images/dild-1.jpg",
-        "img2":"assets/images/dild.jpg",
+        "img1":"assets/images/dildo.jpg",
+        "img2":"",
         "price":"₹1999.00"
     },
     {
         "name":"Fleshlight",
-        "img1":"assets/images/flesh.jpg",
-        "img2":"assets/images/flesh-1.jpg",
+        "img1":"assets/images/fleshlight.jpg",
+        "img2":"",
         "price":"₹1999.00"
+    },
+    {
+        "name":"Handcuffs",
+        "img1":"assets/images/handcuffs.jpg",
+        "img2":"",
+        "price":"₹999.00"
+    },
+    {
+        "name":"Flogger",
+        "img1":"assets/images/flogger.jpg",
+        "img2":"",
+        "price":"₹499.00"
+    },
+    {
+        "name":"Whip",
+        "img1":"assets/images/whip.jpg",
+        "img2":"",
+        "price":"₹499.00"
+    },
+    {
+        "name":"Mask",
+        "img1":"assets/images/eyemask.jpg",
+        "img2":"",
+        "price":"₹399.00"
     }
 ]
