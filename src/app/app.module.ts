@@ -21,6 +21,9 @@ import { EditAddressComponent } from './edit-address/edit-address.component';
 import { SignupComponent } from './signup/signup.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { AddInfoComponent } from './add-info/add-info.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { DescriptionComponent } from './description/description.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +44,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     EditAddressComponent,
     SignupComponent,
     BlogComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    AddInfoComponent,
+    ReviewsComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
